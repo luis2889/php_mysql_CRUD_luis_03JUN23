@@ -1,7 +1,3 @@
-<?php
-include("includes/header.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +14,7 @@ include("includes/header.php");
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <i class="bi bi-bell-fill"></i>
-          To Do Page
+          Página de taréas
         </a>
       </div>
     </nav>
