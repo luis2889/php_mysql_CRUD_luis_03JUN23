@@ -31,7 +31,7 @@ if (isset($_POST['update'])) {
   $query = "UPDATE task set title = '$title', description = '$description', image = '$img_content' WHERE id = $id";
   mysqli_query($conn, $query);
   $_SESSION['message'] = 'Task Updated Successfully';
-  $_SESSION['message-type'] = 'warning';
+  $_SESSION['message_type'] = 'warning';
   header('Location: index.php');
 }
 
@@ -64,3 +64,4 @@ include("includes/header.php");
 
 
 <?php include("includes/footer.php"); ?>
+

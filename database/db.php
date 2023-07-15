@@ -3,9 +3,9 @@ session_start();
 
 $conn = mysqli_connect(
     'localhost',
-    'root',
-    '', 
-    'php_mysql_crud_luis'
+    'id21041310_root',
+    'Dert5%()((', 
+    'id21041310_crudluis'
 ) or die(mysqli_error($mysqli));
 
 
